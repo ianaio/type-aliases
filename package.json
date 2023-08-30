@@ -1,0 +1,31 @@
+{
+  "name": "@ianaio/type-aliases",
+  "version": "0.0.1",
+  "description": "IANA SYSTEMS module type aliases.",
+  "types": "./src/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ianaio/type-aliases.git",
+    "directory": "packages/type-aliases"
+  },
+  "dependencies": {
+    "@docusaurus/react-loadable": "5.5.2",
+    "@docusaurus/types": "2.4.1",
+    "@types/history": "^5.0.0",
+    "@types/react": "*",
+    "@types/react-router-config": "*",
+    "@types/react-router-dom": "*",
+    "react-helmet-async": "*",
+    "react-loadable": "npm:@docusaurus/react-loadable@5.5.2"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "license": "MIT",
+  "gitHead": ""
+}
+
